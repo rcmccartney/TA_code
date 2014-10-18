@@ -19,6 +19,15 @@ def push(node, data):
 	newNode = Node(data, node)
 	return newNode
 	
+# This is O(n) since we have to traverse the stack
+# recursively, unlike the queue class which holds abs
+# size attribute
+def size(node):
+    if emptyStack(node):
+        return 0
+    else:
+        return 1 + size(node.next)
+		
 def emptyStack(node):
 	return node is None
 
@@ -27,10 +36,13 @@ def stackMain():
 	stackTop = Node(5, None)
 	stackTop = push(stackTop, 7)
 	print(stackTop)
+	print("size", size(stackTop))
 	stackTop = pop(stackTop)
 	print(stackTop)
+	print("size", size(stackTop))
 	stackTop = pop(stackTop)
 	print(stackTop)		
+	print("size", size(stackTop))
 	#this will raise IndexError
 	#stackTop = pop(stackTop)
 
