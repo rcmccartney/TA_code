@@ -1,0 +1,30 @@
+Here is the given problem:
+
+Assume you have a hash table of size 10 that uses the following hash function:
+
+def hashFn(str, N)
+	"""hashFn: string, int -> int"""
+	value = ord(str[0]) - ord('a')
+	return value % N
+	
+a.) What is the result of the following call?
+
+	print(hashFn("zebra", 10))
+
+
+b.) Draw a hash table of size 10 where the keys are strings and a key's value is the number of occurrences of the string. Process the following strings and insert them into the table in the order given.  Use Open Addressing to resolve collisions.
+
+1. batman
+2. has
+3. zebra
+4. all
+5. his
+6. gizmos
+7. encircling
+8. his
+9. belt
+10. furry
+11. striped
+
+See testHash.py for an implementation of the solution.
+
