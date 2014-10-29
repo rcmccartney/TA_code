@@ -20,3 +20,13 @@ the public-facing function just starts the recursion on the head of the list.  T
 is a very common design pattern that allows us to present uniform interfaces to the 
 user for both the iterative and recursive implementations, as they appear the same 
 from the outside (besides their names). 
+
+Wk10:
+This week focuses on hash tables, with explanations on what a hash function is, how a hash code
+is computed, how this hash code is used to implement a hash table, and how collisions are 
+handled inside the table.  The code for this week focuses on the last problem in recitation, 
+implementing a small hash table using a list and inserting with open addressing (where you linearly
+search for the next open spot from the point of entry of the hash code for your given key). 
+Here, the key is a string used to compute a hash code and the value is an integer representing how
+many times we have seen this key.  We also discussed rehashing and expanding the size of a hash table
+as collisions become more frequent.
