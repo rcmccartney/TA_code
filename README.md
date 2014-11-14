@@ -10,6 +10,7 @@ used it to implement a FIFO queue and a LIFO stack.  The queue required an
 additional class structure to hold references to the front and the back of the 
 queue, but the stack only required a reference to the top Node, which in turn
 holds a reference to the node immediately below it.
+Usage:  % python myStackandQueue.py
 
 Wk9:
 This week we went over linkedlists and how they compare to arraylists, as well as the
@@ -20,6 +21,7 @@ the public-facing function just starts the recursion on the head of the list.  T
 is a very common design pattern that allows us to present uniform interfaces to the 
 user for both the iterative and recursive implementations, as they appear the same 
 from the outside (besides their names). 
+Usage:  % python count_remove.py
 
 Wk10:
 This week focuses on hash tables, with explanations on what a hash function is, how a hash code
@@ -30,3 +32,14 @@ search for the next open spot from the point of entry of the hash code for your 
 Here, the key is a string used to compute a hash code and the value is an integer representing how
 many times we have seen this key.  We also discussed rehashing and expanding the size of a hash table
 as collisions become more frequent.
+Usage:  % python testHash.py
+
+Wk12: 
+This week is all about Binary Search Trees and different forms of traversals.  In breadth-first 
+search, an entire depth of the tree is visited before going to any node at the next depth of the tree.
+In contrast, depth-first search has three forms of traversal. Pre-order visits the current node before 
+visiting any children.  In-order visits the left subtree, then this node, then the right subtree.
+Post-order visits the left and right subtrees before visiting the parent, so the root node
+is the last node visited in the tree.  See the code for a visualization of both the depth
+of the tree and the order of visiting the nodes under all three forms of DFS.
+Usage:  % python tree_print.py
