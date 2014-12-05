@@ -43,3 +43,8 @@ Post-order visits the left and right subtrees before visiting the parent, so the
 is the last node visited in the tree.  See the code for a visualization of both the depth
 of the tree and the order of visiting the nodes under all three forms of DFS.
 Usage:  % python tree_print.py
+
+Wk14:
+This week we went over quicksort and mergesort as optimal )(N*logN) sorting algorithms.  In the code, we show a bad merge function for use in a mergesort algorithm.  The good version of the function is displayed below - convince yourself
+why the first version will not properly merge two arbitraily sorted lists.
+Usage: % python badMerge.py
