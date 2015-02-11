@@ -3,6 +3,8 @@ TA_code
 
 All the live code from recitation sessions will be posted here
 
+\##### 2014 Spring CS1 \#####
+
 Wk1:
 This week we use turtle to show how to make functions and the 
 value of function re-use.  Making reusable functions takes more work 
@@ -12,6 +14,33 @@ off to the right after our original figure is drawn).
 
 Usage:  % python triangleWheel.py
 
+Wk2:
+This week the focus is on recursion and how to 
+properly form a recursive function.  For proper
+recursion, there needs to be a base case and the
+recursive call needs to decrement towards the base
+case (or it will run forever!).
+
+Usage: % python wk2.py
+
+Wk3:
+This week focuses on tail recursion.  The power 
+of tail recursion comes from the fact that it can 
+always be converted into iteration.  Here is an
+example of a recursive function and its iterative 
+form.  Note that the base case of recursion becomes
+the conditional on the iteration, except you are testing
+whether to continue instead of whether to stop (so the 
+truth statement is reversed!). the recursive function
+call becomes an update to the variables in iteration.
+
+Usage: % python wk3.py
+
+\##### 2014 Spring CS2 \#####
+
+
+
+\##### 2014 Fall CS1 \#####
 
 Wk8: 
 This week we went over stacks and queues, as well as their Big-O complexities.  
