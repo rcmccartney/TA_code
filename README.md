@@ -3,9 +3,7 @@ TA_code
 
 All the live code from recitation sessions will be posted here
 
-#######################
-2014 Spring
-#######################
+\##### 2014 Spring CS1 \#####
 
 Wk1:
 This week we use turtle to show how to make functions and the 
@@ -38,9 +36,12 @@ call becomes an update to the variables in iteration.
 
 Usage: % python wk3.py
 
-#######################
-2014 Fall
-#######################
+\##### 2014 Spring CS2 \#####
+
+
+
+\##### 2014 Fall CS1 \#####
+
 Wk8: 
 This week we went over stacks and queues, as well as their Big-O complexities.  
 In Python (v3.4), we created a Node class that extended the rit_object class 
