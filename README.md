@@ -9,6 +9,7 @@ value of function re-use.  Making reusable functions takes more work
 to code initially, but gives us much more flexibility to use our 
 drawTriangle function at a later time (shown by the one triangle 
 off to the right after our original figure is drawn).
+
 Usage:  % python triangleWheel.py
 
 
@@ -19,6 +20,7 @@ and used it to implement a FIFO queue and a LIFO stack.  The queue required an
 additional class structure to hold references to the front and the back of the 
 queue, but the stack only required a reference to the top Node, which in turn
 holds a reference to the node immediately below it.
+
 Usage:  % python myStackandQueue.py
 
 Wk9:
@@ -30,6 +32,7 @@ the public-facing function just starts the recursion on the head of the list.  T
 is a very common design pattern that allows us to present uniform interfaces to the 
 user for both the iterative and recursive implementations, as they appear the same 
 from the outside (besides their names). 
+
 Usage:  % python count_remove.py
 
 Wk10:
@@ -41,6 +44,7 @@ search for the next open spot from the point of entry of the hash code for your 
 Here, the key is a string used to compute a hash code and the value is an integer representing how
 many times we have seen this key.  We also discussed rehashing and expanding the size of a hash table
 as collisions become more frequent.
+
 Usage:  % python testHash.py
 
 Wk12: 
@@ -51,9 +55,11 @@ visiting any children.  In-order visits the left subtree, then this node, then t
 Post-order visits the left and right subtrees before visiting the parent, so the root node
 is the last node visited in the tree.  See the code for a visualization of both the depth
 of the tree and the order of visiting the nodes under all three forms of DFS.
+
 Usage:  % python tree_print.py
 
 Wk14:
 This week we went over quicksort and mergesort as optimal )(N*logN) sorting algorithms.  In the code, we show a bad merge function for use in a mergesort algorithm.  The good version of the function is displayed below - convince yourself
 why the first version will not properly merge two arbitraily sorted lists.
+
 Usage: % python badMerge.py
