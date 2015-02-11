@@ -12,6 +12,14 @@ off to the right after our original figure is drawn).
 
 Usage:  % python triangleWheel.py
 
+Wk2:
+This week the focus is on recursion and how to 
+properly form a recursive function.  For proper
+recursion, there needs to be a base case and the
+recursive call needs to decrement towards the base
+case (or it will run forever!).
+
+Usage: % python wk2.py
 
 Wk8: 
 This week we went over stacks and queues, as well as their Big-O complexities.  
