@@ -3,10 +3,19 @@ TA_code
 
 All the live code from recitation sessions will be posted here
 
+Wk1:
+This week we use turtle to show how to make functions and the 
+value of function re-use.  Making reusable functions takes more work 
+to code initially, but gives us much more flexibility to use our 
+drawTriangle function at a later time (shown by the one triangle 
+off to the right after our original figure is drawn).
+Usage:  % python triangleWheel.py
+
+
 Wk8: 
 This week we went over stacks and queues, as well as their Big-O complexities.  
-In Python (v3.4), we created a Node class that extended the rit_object class and 
-used it to implement a FIFO queue and a LIFO stack.  The queue required an 
+In Python (v3.4), we created a Node class that extended the rit_object class 
+and used it to implement a FIFO queue and a LIFO stack.  The queue required an 
 additional class structure to hold references to the front and the back of the 
 queue, but the stack only required a reference to the top Node, which in turn
 holds a reference to the node immediately below it.
