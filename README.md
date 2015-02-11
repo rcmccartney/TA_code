@@ -3,6 +3,10 @@ TA_code
 
 All the live code from recitation sessions will be posted here
 
+#######################
+2014 Spring
+#######################
+
 Wk1:
 This week we use turtle to show how to make functions and the 
 value of function re-use.  Making reusable functions takes more work 
@@ -21,6 +25,22 @@ case (or it will run forever!).
 
 Usage: % python wk2.py
 
+Wk3:
+This week focuses on tail recursion.  The power 
+of tail recursion comes from the fact that it can 
+always be converted into iteration.  Here is an
+example of a recursive function and its iterative 
+form.  Note that the base case of recursion becomes
+the conditional on the iteration, except you are testing
+whether to continue instead of whether to stop (so the 
+truth statement is reversed!). the recursive function
+call becomes an update to the variables in iteration.
+
+Usage: % python wk3.py
+
+#######################
+2014 Fall
+#######################
 Wk8: 
 This week we went over stacks and queues, as well as their Big-O complexities.  
 In Python (v3.4), we created a Node class that extended the rit_object class 
