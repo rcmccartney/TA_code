@@ -1,10 +1,10 @@
-public class Pair<E> {
+public class Pair<T> {
 	
-	public E first ; 
-	private E second ; 
+	public T first ; 
+	private T second ; 
 	private int numSwaps ;
 	
-	public Pair(E f, E s) 
+	public Pair(T f, T s) 
 	{ 
 		first = f;
 		second = s;
@@ -12,7 +12,7 @@ public class Pair<E> {
 	}
 
 	public void swap() { 
-		E temp = first;
+		T temp = first;
 		first = second; 
 		second = temp; 
 		numSwaps++;
@@ -22,9 +22,9 @@ public class Pair<E> {
 
 		Pair<Integer> pI = new Pair<Integer>(4, 5);
 		Pair<Double> pD = new Pair<Double>(3.33, 7.7);
-		
 		pD.swap();
 		System.out.println("first: " + pD.first); 
-
+		pI.swap();
+		System.out.println("first: " + pI.first); 
 	}
 }
