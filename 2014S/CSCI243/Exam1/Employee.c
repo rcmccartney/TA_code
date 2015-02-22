@@ -22,22 +22,27 @@ float getWage(Employee2 employees[], int numEmployees, int id) {
 	return -1;
 }
 
-float getAverageWage(Employee2 employees[], int numEmployees) {
-	int i; double sum;
-	for(i=0, sum=0; i < numEmployees; ++i) {
-		sum += employees[i].wage;	
-	}
-	return sum/numEmployees;
-}	
+float getAverageWage(Employee2 emp[], int num) {
 
-int numEmployeesInDept(Employee2 employees[], int numEmployees, int dept) {
-	int i, sum;
-	for(i=0,sum=0; i < numEmployees; ++i) {
-		if (employees[i].dept == dept)
-	   		sum += 1;	
+	float sum = 0;	
+	int i;
+	for(i = 0; i < num; ++i) {
+		sum += emp[i].wage;
 	}
+	return sum / num;
+}
+
+
+int numEmployeesInDept(Employee2 emp[], int num, int dept) {
+	
+	int i, sum=0;
+	for(i = 0; i < num; ++i) {
+		if (emp[i].dept == dept) {
+			sum++;
+		}
+	}	
 	return sum;
-}	
+}
 
 int main() {
 	//two ways to construct each form above	

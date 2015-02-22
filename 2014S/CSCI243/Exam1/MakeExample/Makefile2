@@ -1,0 +1,14 @@
+objects = main.o Employee.o
+
+EmpExecutable: Employee.o main.o
+	gcc -o EmpExecutable Employee.o main.o
+
+Employee.o: Employee.h
+	gcc -c Employee.c
+
+main.o: Employee.h main.c
+	gcc -c main.c
+
+.PHONY : clean
+clean :
+	-rm EmpExecutable $(objects)
